@@ -1,7 +1,6 @@
 {
   "name": "back-end",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -9,15 +8,24 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "me",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mongoose": "^8.4.0",
-    "nodemon": "^3.1.0"
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saneem-bk/BookStoreMERN.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/saneem-bk/BookStoreMERN/issues"
+  },
+  "homepage": "https://github.com/saneem-bk/BookStoreMERN/tree/main#readme",
+  "description": ""
 }
